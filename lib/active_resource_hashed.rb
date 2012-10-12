@@ -2,7 +2,7 @@ require "active_resource_hashed/version"
 require 'active_resource'
 
 module ActiveResourceHashed
-	class ActiveResourceHashed < ActiveResource::Base
+	class Base < ActiveResource::Base
 		class << self
 			attr_accessor :hash_id
 			attr_accessor :hash_key

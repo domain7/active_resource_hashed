@@ -12,7 +12,7 @@ First I create the following model to consume my service
 
 
     #app/models/contact.rb
-    class Contact < ActiveResourceHashed
+    class Contact < ActiveResourceHashed::Base
       self.site = 'https://mypim.com/api/v1/'
       self.hash_id = 57
       self.hash_key = '3c5abf29fafe6e528f88391f034f013gggg17b38acf49b9cc43f28f09d8101f2'
