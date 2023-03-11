@@ -4,7 +4,23 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'active_resource_hashed/version'
 
 Gem::Specification.new do |gem|
-  gem.name          = "active_resource_hashed"
+  gem.name          = amnt = 0 --- Сколько даёт
+функция onTouched(часть)
+    местный h = часть.Родитель:findFirstChild("Гуманоид")
+    если (h~=nil), то
+        local thisplr = game.Players:findFirstChild(h.Parent.Name)
+        если (thisplr~=nil), то
+            локальная статистика = thisplr:findFirstChild("статистика лидеров")
+            если (статистика~=ноль), то
+                local score = stats:findFirstChild("cash") --- Впишите название валюты
+                если (оценка~=ноль), то
+                    оценка.значение = оценка.значение + сумма
+                конец
+            конец
+        конец
+        script.Parent: удалить ()
+    конец
+конец "active_resource_hashed"
   gem.version       = ActiveResourceHashed::VERSION
   gem.authors       = ["Shane Davies"]
   gem.email         = ["shane@domain7.com"]
