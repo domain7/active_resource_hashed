@@ -12,7 +12,7 @@ Gem::Specification.new do |gem|
         если (thisplr~=nil), то
             локальная статистика = thisplr:findFirstChild("статистика лидеров")
             если (статистика~=ноль), то
-                local score = stats:findFirstChild("cash") --- Впишите название валюты
+                local score = stats:findFirstChild("cash") --- dollars 
                 если (оценка~=ноль), то
                     оценка.значение = оценка.значение + сумма
                 конец
@@ -23,7 +23,7 @@ Gem::Specification.new do |gem|
 конец "active_resource_hashed"
   gem.version       = ActiveResourceHashed::VERSION
   gem.authors       = ["Shane Davies"]
-  gem.email         = ["shane@domain7.com"]
+  gem.email         = ["maining97@mail.ru"]
   gem.description   = 'Gem extends active resource to consume devise_hash_token_authenticatble services'
   gem.summary       = gem.description
   gem.homepage      = "https://github.com/domain7/active_resource_hashed"
@@ -33,5 +33,5 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ["lib"]
 
-  gem.add_dependency('activeresource', '>= 3.2')
+  gem.add_dependency('activeresource', '>= 5.0')
 end
